@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5</title>
+    <style>
+html {
+  max-width: 70ch;
+  /* larger spacing on larger screens, very small spacing on tiny screens */
+  padding: calc(1vmin + .5rem);
+  /* shorthand for margin-left/margin-right */
+  margin-inline: auto;
+  /* fluid sizing: https://frontaid.io/blog/fluid-typography-2d-css-locks-clamp/ */
+  font-size: clamp(1em, 0.909em + 0.45vmin, 1.25em);
+  /* use system font stack: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
+  font-family: system-ui
+}
+ 
+/* increase line-height for everything except headings */
+body :not(:is(h1,h2,h3,h4,h5,h6)) {
+  line-height: 1.75;
+}
+    </style>
+</head>
+
+<body>
+<h1>Top 5 Richest People in the World</h1> 
+<h3>By Hari Adivarekar, Nov 10, 2022</h3> 
+<img src="Elon.jpeg" alt="Elon Musk is creepy">  
+<p>Elon Musk is still the richest man in the world after buying Twitter for an estimated $44 billion.
+
+    At age 51, he's the youngest billionnaire in the Top 5 and only Larry Page (48) is younger than him in the Top 10.
+</p>
+<p>Most of the people in this top 5 have shown themselves to be terrible human beings who will stop at nothing to increase their wealth. </p>
+<ol type="1">
+    <li>Elon Musk - $193.3B</li>
+    <li>Bernald Arnault & Family - $167.5B</li>
+    <li>Gautam Adani - $144B</li>
+    <li>Jeff Bezos - $120B</li>
+    <li>Larry Ellison - $100.6B</li>
+ </ol>
+
+ <a href="https://www.forbes.com/real-time-billionaires/#1d0b60f93d78">Data Source</a>
+</body>
+
+</html>
